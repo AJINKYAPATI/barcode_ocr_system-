@@ -5,7 +5,8 @@ A web app that checks whether the **barcode printed on a product label** matches
 Built with **Python** and **Streamlit**, it's meant to work like a real quality-control tool you'd find in a warehouse or packaging line, not just a demo script.
 
 ---
-blob:https://claude.ai/647e24a4-4cef-488a-93f8-64daa566ed2a
+<img width="716" height="422" alt="image" src="https://github.com/user-attachments/assets/a2940fc6-fe45-4304-ab52-c78c192684a1" />
+
 
 
 
