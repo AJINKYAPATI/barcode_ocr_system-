@@ -6,8 +6,7 @@ Built with **Python** and **Streamlit**, it's meant to work like a real quality-
 
 ---
 
-https://www.linkedin.com/posts/ajinkyapatil-dataanalyst_successfully-completed-my-data-analyst-internship-ugcPost-7460655333774909440-OkM7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-3USoBTrJS6c2VedTpD-zuHSYcPWvgrnI
-
+![App demo](demo.gif)
 ## 1. What problem does this solve?
 
 On many product labels, the same code appears twice: once as a **barcode** and once as **printed text** (for example, `8901234567890` printed both as a scannable barcode and as plain numbers underneath it). In real-world manufacturing and logistics, printing errors happen — the barcode and the text next to it can end up not matching, because of a printer glitch, a copy-paste error, or a damaged label.
