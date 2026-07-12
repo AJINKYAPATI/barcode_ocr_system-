@@ -1,0 +1,4 @@
+2026-06-27 10:11:44,861 - BarcodeOCR - INFO - _build_root_logger:58 - Logger initialised -> C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\outputs\logs\barcode_ocr_20260627_101144.log
+2026-06-27 10:11:51,333 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing']
+2026-06-27 10:12:27,308 - BarcodeOCR.services.ocr_service - INFO - __init__:131 - PaddleOCR not available (optional engine): Unknown argument: show_log
+2026-06-27 10:12:27,317 - BarcodeOCR.services.ocr_service - INFO - __init__:161 - OCR engines available: ['easyocr', 'tesseract']

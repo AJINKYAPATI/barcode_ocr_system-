@@ -1,0 +1,479 @@
+2026-06-27 20:07:00,493 - BarcodeOCR - INFO - _build_root_logger:58 - Logger initialised -> C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\outputs\logs\barcode_ocr_20260627_200700.log
+2026-06-27 20:07:02,139 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing']
+2026-06-27 20:07:12,551 - BarcodeOCR.services.ocr_service - INFO - __init__:131 - PaddleOCR not available (optional engine): Unknown argument: show_log
+2026-06-27 20:07:12,551 - BarcodeOCR.services.ocr_service - INFO - __init__:161 - OCR engines available: ['easyocr', 'tesseract']
+2026-06-27 20:08:45,760 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0268241M' [CODE_128]
+2026-06-27 20:08:45,760 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:08:47,987 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0268241M' (94.4%) via easyocr in 2.221s
+2026-06-27 20:08:47,987 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:08:48,681 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200848.pdf
+2026-06-27 20:08:48,693 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:08:48,706 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:08:48,707 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:08:58,548 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200858.pdf
+2026-06-27 20:08:58,556 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:08:58,569 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:08:58,571 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:08:58,818 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:08:58,967 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200858.pdf
+2026-06-27 20:08:58,976 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:08:58,988 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:08:58,988 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:09:06,458 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0411241M' [CODE_128]
+2026-06-27 20:09:06,466 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:09:08,181 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0411241M' (84.0%) via tesseract in 1.714s
+2026-06-27 20:09:08,181 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:09:08,363 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200908.pdf
+2026-06-27 20:09:08,376 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:09:08,389 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:09:08,391 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:09:16,987 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:09:17,134 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200917.pdf
+2026-06-27 20:09:17,142 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:09:17,154 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:09:17,157 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:09:19,510 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0436241M' [CODE_128]
+2026-06-27 20:09:19,510 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:09:20,337 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PEGECIELASTRLUA' (32.7%) via tesseract in 0.827s
+2026-06-27 20:09:20,343 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:09:20,491 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_200920.pdf
+2026-06-27 20:09:20,497 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:09:20,508 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:09:20,511 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:10:14,991 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:15,145 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201015.pdf
+2026-06-27 20:10:15,152 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:10:15,162 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:10:15,163 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:10:19,081 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:19,258 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201019.pdf
+2026-06-27 20:10:19,265 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:10:19,277 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:10:19,283 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:10:22,229 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:22,371 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201022.pdf
+2026-06-27 20:10:22,380 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:10:22,391 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:10:22,392 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:10:28,094 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:28,239 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201028.pdf
+2026-06-27 20:10:28,248 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:10:28,263 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:10:28,266 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:10:33,221 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:33,264 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\1.png shape=(548, 750, 3)
+2026-06-27 20:10:33,264 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\2.png shape=(548, 750, 3)
+2026-06-27 20:10:33,807 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '9014735424797' [EAN_13]
+2026-06-27 20:10:33,807 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:33,818 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0205241M' [CODE_128]
+2026-06-27 20:10:33,818 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:35,817 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'OUTTAAEELTETTRTTRTEE' (34.5%) via tesseract in 1.991s
+2026-06-27 20:10:35,826 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\3.png shape=(548, 750, 3)
+2026-06-27 20:10:35,837 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0280268241M' (43.1%) via easyocr in 2.032s
+2026-06-27 20:10:35,849 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\4.png shape=(548, 750, 3)
+2026-06-27 20:10:36,417 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0411241M' [CODE_128]
+2026-06-27 20:10:36,421 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:36,457 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0268241M' [CODE_128]
+2026-06-27 20:10:36,458 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:38,574 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0411241M' (84.0%) via tesseract in 2.154s
+2026-06-27 20:10:38,591 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\5.png shape=(548, 750, 3)
+2026-06-27 20:10:39,087 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0268241M' (94.4%) via easyocr in 2.629s
+2026-06-27 20:10:39,098 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\6.png shape=(548, 750, 3)
+2026-06-27 20:10:39,337 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0436241M' [CODE_128]
+2026-06-27 20:10:39,337 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:39,837 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0669241M' [CODE_128]
+2026-06-27 20:10:39,837 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:40,140 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PEGECIELASTRLUA' (32.7%) via tesseract in 0.8s
+2026-06-27 20:10:40,151 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\7.png shape=(548, 750, 3)
+2026-06-27 20:10:40,680 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PETETIRETEAA' (24.4%) via tesseract in 0.843s
+2026-06-27 20:10:40,694 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\8.png shape=(548, 750, 3)
+2026-06-27 20:10:40,888 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0855241P' [CODE_128]
+2026-06-27 20:10:40,888 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:41,307 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '020745492793' [UPC_A]
+2026-06-27 20:10:41,309 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:43,217 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HVATAEST' (24.0%) via tesseract in 2.331s
+2026-06-27 20:10:43,235 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\9.png shape=(548, 750, 3)
+2026-06-27 20:10:43,321 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0281168241M' (59.8%) via easyocr in 2.011s
+2026-06-27 20:10:43,329 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\10.png shape=(548, 750, 3)
+2026-06-27 20:10:43,779 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B1214241M' [CODE_128]
+2026-06-27 20:10:43,779 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:43,867 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:43,877 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:45,530 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PAVALTTETHEEA' (34.2%) via tesseract in 1.752s
+2026-06-27 20:10:45,548 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\11.png shape=(548, 750, 3)
+2026-06-27 20:10:46,211 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '028121624M' (38.0%) via easyocr in 2.33s
+2026-06-27 20:10:46,219 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\12.png shape=(548, 750, 3)
+2026-06-27 20:10:46,327 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2031241M' [CODE_128]
+2026-06-27 20:10:46,327 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:47,086 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:47,090 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:48,088 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'OOR9ORIAIM' (2.9%) via easyocr in 1.759s
+2026-06-27 20:10:48,099 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\13.png shape=(548, 750, 3)
+2026-06-27 20:10:49,017 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2073241M' [CODE_128]
+2026-06-27 20:10:49,017 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:49,128 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282059241M' (65.9%) via easyocr in 2.037s
+2026-06-27 20:10:49,137 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\14.png shape=(548, 750, 3)
+2026-06-27 20:10:50,058 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2074241M' [CODE_128]
+2026-06-27 20:10:50,058 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:51,370 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'RATERRHE' (20.0%) via tesseract in 2.351s
+2026-06-27 20:10:51,381 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\15.png shape=(548, 750, 3)
+2026-06-27 20:10:51,848 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'SRTTTTAEETTEETN' (35.7%) via tesseract in 1.789s
+2026-06-27 20:10:51,859 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\16.png shape=(548, 750, 3)
+2026-06-27 20:10:52,147 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:52,151 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:52,684 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2105241M' [CODE_128]
+2026-06-27 20:10:52,687 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:54,447 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'SU' (33.0%) via tesseract in 1.76s
+2026-06-27 20:10:54,457 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\17.png shape=(548, 750, 3)
+2026-06-27 20:10:54,557 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2101241M' (52.8%) via easyocr in 2.404s
+2026-06-27 20:10:54,567 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\18.png shape=(548, 750, 3)
+2026-06-27 20:10:55,091 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:55,096 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:55,167 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:55,174 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:57,334 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282114241M' (82.8%) via easyocr in 2.238s
+2026-06-27 20:10:57,347 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\19.png shape=(548, 750, 3)
+2026-06-27 20:10:58,253 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2121241M' [CODE_128]
+2026-06-27 20:10:58,257 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:10:58,260 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282117241P' (71.5%) via easyocr in 3.09s
+2026-06-27 20:10:58,274 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\20.png shape=(548, 750, 3)
+2026-06-27 20:10:59,393 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:10:59,399 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:00,851 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282121241M' (66.8%) via easyocr in 2.594s
+2026-06-27 20:11:00,863 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\21.png shape=(548, 750, 3)
+2026-06-27 20:11:01,749 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2128241M' (94.2%) via easyocr in 2.35s
+2026-06-27 20:11:01,763 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\22.png shape=(548, 750, 3)
+2026-06-27 20:11:01,776 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:01,783 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:02,789 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '010735494227' [UPC_A]
+2026-06-27 20:11:02,793 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:04,220 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2128241P' (83.8%) via easyocr in 2.436s
+2026-06-27 20:11:04,229 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\23.png shape=(548, 750, 3)
+2026-06-27 20:11:04,942 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2130241M' (67.8%) via easyocr in 2.149s
+2026-06-27 20:11:04,952 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\24.png shape=(548, 750, 3)
+2026-06-27 20:11:05,107 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2134241M' [CODE_128]
+2026-06-27 20:11:05,107 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:05,771 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2135241M' [CODE_128]
+2026-06-27 20:11:05,774 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:06,932 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'TEETERTELELLALLAI' (38.4%) via tesseract in 1.156s
+2026-06-27 20:11:06,947 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\25.png shape=(548, 750, 3)
+2026-06-27 20:11:07,157 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HTTETTTAAETST' (27.6%) via tesseract in 2.047s
+2026-06-27 20:11:07,168 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\26.png shape=(548, 750, 3)
+2026-06-27 20:11:07,616 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2170241M' [CODE_128]
+2026-06-27 20:11:07,616 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:07,787 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:07,787 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:10,291 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2170241M' (93.5%) via easyocr in 2.671s
+2026-06-27 20:11:10,301 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\27.png shape=(548, 750, 3)
+2026-06-27 20:11:10,321 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2170241P' (92.7%) via easyocr in 2.527s
+2026-06-27 20:11:10,335 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\28.png shape=(548, 750, 3)
+2026-06-27 20:11:10,970 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2198241P' [CODE_128]
+2026-06-27 20:11:10,970 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:10,989 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2250241M' [CODE_128]
+2026-06-27 20:11:10,989 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:12,107 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'TREEEEUETETRA' (27.5%) via tesseract in 1.134s
+2026-06-27 20:11:12,109 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HOLELEEEAE' (17.7%) via tesseract in 1.118s
+2026-06-27 20:11:12,119 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\29.png shape=(548, 750, 3)
+2026-06-27 20:11:12,125 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\30.png shape=(548, 750, 3)
+2026-06-27 20:11:12,783 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2253241M' [CODE_128]
+2026-06-27 20:11:12,789 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:12,790 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:12,797 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:15,195 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282253241M' (84.4%) via easyocr in 2.404s
+2026-06-27 20:11:15,207 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\31.png shape=(548, 750, 3)
+2026-06-27 20:11:15,866 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2273241M' (68.2%) via easyocr in 3.068s
+2026-06-27 20:11:15,875 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\32.png shape=(548, 750, 3)
+2026-06-27 20:11:16,042 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:16,049 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:16,757 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2279242M' [CODE_128]
+2026-06-27 20:11:16,757 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:18,559 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282279241M' (60.6%) via easyocr in 2.51s
+2026-06-27 20:11:18,571 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\33.png shape=(548, 750, 3)
+2026-06-27 20:11:19,633 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:19,639 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:20,068 - BarcodeOCR.services.ocr_service - WARNING - extract_text:192 - OCR returned no results from any engine
+2026-06-27 20:11:20,084 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\34.png shape=(548, 750, 3)
+2026-06-27 20:11:21,127 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2298241M' [CODE_128]
+2026-06-27 20:11:21,127 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:21,992 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2296241P' (79.2%) via easyocr in 2.349s
+2026-06-27 20:11:22,009 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\35.png shape=(548, 750, 3)
+2026-06-27 20:11:22,981 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2300241M' [CODE_128]
+2026-06-27 20:11:22,984 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:24,027 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'ASETATETEEUFELHI' (31.5%) via tesseract in 2.898s
+2026-06-27 20:11:24,042 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\36.png shape=(548, 750, 3)
+2026-06-27 20:11:24,778 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282300241M' (72.5%) via easyocr in 1.795s
+2026-06-27 20:11:24,787 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\37.png shape=(548, 750, 3)
+2026-06-27 20:11:24,926 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2309241M' [CODE_128]
+2026-06-27 20:11:24,926 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:25,818 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:25,834 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:27,699 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2309241M' (65.9%) via easyocr in 2.771s
+2026-06-27 20:11:27,713 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\38.png shape=(548, 750, 3)
+2026-06-27 20:11:28,354 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282318241M' (82.3%) via easyocr in 2.517s
+2026-06-27 20:11:28,364 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\39.png shape=(548, 750, 3)
+2026-06-27 20:11:28,574 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2329241M' [CODE_128]
+2026-06-27 20:11:28,576 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:29,218 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2329242M' [CODE_128]
+2026-06-27 20:11:29,218 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:30,147 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'RRTATAE' (16.0%) via tesseract in 1.57s
+2026-06-27 20:11:30,157 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\40.png shape=(548, 750, 3)
+2026-06-27 20:11:30,248 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'EEELIELLLUEAAN' (35.8%) via tesseract in 1.026s
+2026-06-27 20:11:30,258 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\41.png shape=(548, 750, 3)
+2026-06-27 20:11:30,901 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:30,908 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:30,940 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2333242M' [CODE_128]
+2026-06-27 20:11:30,942 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:38,519 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'LS02B2333241M' (73.5%) via tesseract in 7.614s
+2026-06-27 20:11:38,537 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\42.png shape=(548, 750, 3)
+2026-06-27 20:11:38,553 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282333242M' (55.5%) via easyocr in 7.61s
+2026-06-27 20:11:38,568 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\43.png shape=(548, 750, 3)
+2026-06-27 20:11:40,173 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2363241M' [CODE_128]
+2026-06-27 20:11:40,174 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:40,256 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2364241M' [CODE_128]
+2026-06-27 20:11:40,261 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:42,367 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'LT0A' (6.5%) via easyocr in 2.192s
+2026-06-27 20:11:42,378 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\44.png shape=(548, 750, 3)
+2026-06-27 20:11:43,267 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2364241M' (72.2%) via easyocr in 3.005s
+2026-06-27 20:11:43,278 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\45.png shape=(548, 750, 3)
+2026-06-27 20:11:43,321 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:43,328 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:44,345 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:44,517 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:46,049 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282365241M' (72.4%) via easyocr in 2.718s
+2026-06-27 20:11:46,065 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\46.png shape=(548, 750, 3)
+2026-06-27 20:11:46,969 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282437241M' (60.9%) via easyocr in 2.456s
+2026-06-27 20:11:46,987 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\47.png shape=(548, 750, 3)
+2026-06-27 20:11:47,030 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:47,038 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:47,658 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:11:47,662 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:50,637 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2494241M' (90.0%) via tesseract in 3.595s
+2026-06-27 20:11:50,651 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\48.png shape=(548, 750, 3)
+2026-06-27 20:11:50,697 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2501241M' (71.7%) via easyocr in 3.033s
+2026-06-27 20:11:50,712 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\49.png shape=(548, 750, 3)
+2026-06-27 20:11:51,334 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2501241P' [CODE_128]
+2026-06-27 20:11:51,334 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:51,384 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2508241P' [CODE_128]
+2026-06-27 20:11:51,386 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:52,451 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'EEELIBRETELELLAA' (30.4%) via tesseract in 1.116s
+2026-06-27 20:11:52,466 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\50.png shape=(548, 750, 3)
+2026-06-27 20:11:52,661 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'AENEEEE' (14.0%) via tesseract in 1.277s
+2026-06-27 20:11:53,117 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2513241M' [CODE_128]
+2026-06-27 20:11:53,117 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:11:54,756 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2513241M' (83.0%) via easyocr in 1.63s
+2026-06-27 20:11:54,984 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201154.pdf
+2026-06-27 20:11:54,994 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:11:55,024 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:11:55,029 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:12:47,654 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201247.pdf
+2026-06-27 20:12:47,674 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:12:47,713 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:12:47,718 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:13:38,613 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201338.pdf
+2026-06-27 20:13:38,621 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:13:38,650 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:13:38,654 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\6.png shape=(548, 750, 3)
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\5.png shape=(548, 750, 3)
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\1.png shape=(548, 750, 3)
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\4.png shape=(548, 750, 3)
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\2.png shape=(548, 750, 3)
+2026-06-27 20:14:24,067 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\3.png shape=(548, 750, 3)
+2026-06-27 20:14:24,071 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\8.png shape=(548, 750, 3)
+2026-06-27 20:14:24,071 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\9.png shape=(548, 750, 3)
+2026-06-27 20:14:24,071 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\7.png shape=(548, 750, 3)
+2026-06-27 20:14:24,073 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\10.png shape=(548, 750, 3)
+2026-06-27 20:14:24,073 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\13.png shape=(548, 750, 3)
+2026-06-27 20:14:24,076 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\12.png shape=(548, 750, 3)
+2026-06-27 20:14:24,077 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\11.png shape=(548, 750, 3)
+2026-06-27 20:14:24,082 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\14.png shape=(548, 750, 3)
+2026-06-27 20:14:24,083 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\15.png shape=(548, 750, 3)
+2026-06-27 20:14:24,088 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\16.png shape=(548, 750, 3)
+2026-06-27 20:14:25,888 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0436241M' [CODE_128]
+2026-06-27 20:14:25,890 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:25,922 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2031241M' [CODE_128]
+2026-06-27 20:14:25,932 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:25,974 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:25,990 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0669241M' [CODE_128]
+2026-06-27 20:14:25,995 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,002 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,092 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0205241M' [CODE_128]
+2026-06-27 20:14:26,102 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,097 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '9014735424797' [EAN_13]
+2026-06-27 20:14:26,107 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,139 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '020745492793' [UPC_A]
+2026-06-27 20:14:26,147 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,182 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0411241M' [CODE_128]
+2026-06-27 20:14:26,188 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,244 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B1214241M' [CODE_128]
+2026-06-27 20:14:26,252 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,244 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:26,282 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2074241M' [CODE_128]
+2026-06-27 20:14:26,288 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,305 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,299 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2073241M' [CODE_128]
+2026-06-27 20:14:26,306 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0855241P' [CODE_128]
+2026-06-27 20:14:26,313 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,318 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,359 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2105241M' [CODE_128]
+2026-06-27 20:14:26,371 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,426 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0268241M' [CODE_128]
+2026-06-27 20:14:26,432 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:26,492 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:26,556 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:40,252 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'SU' (33.0%) via tesseract in 13.867s
+2026-06-27 20:14:40,405 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\17.png shape=(548, 750, 3)
+2026-06-27 20:14:40,788 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PEGECIELASTRLUA' (32.7%) via tesseract in 14.896s
+2026-06-27 20:14:40,799 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PETETIRETEAA' (24.4%) via tesseract in 14.801s
+2026-06-27 20:14:40,867 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\18.png shape=(548, 750, 3)
+2026-06-27 20:14:40,869 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\19.png shape=(548, 750, 3)
+2026-06-27 20:14:43,221 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:43,281 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:43,440 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:43,459 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:43,460 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2121241M' [CODE_128]
+2026-06-27 20:14:43,464 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:43,907 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'SRTTTTAEETTEETN' (35.7%) via tesseract in 17.616s
+2026-06-27 20:14:43,927 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\20.png shape=(548, 750, 3)
+2026-06-27 20:14:44,021 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HVATAEST' (24.0%) via tesseract in 17.701s
+2026-06-27 20:14:44,039 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\21.png shape=(548, 750, 3)
+2026-06-27 20:14:44,334 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'PAVALTTETHEEA' (34.2%) via tesseract in 18.055s
+2026-06-27 20:14:44,381 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\22.png shape=(548, 750, 3)
+2026-06-27 20:14:44,482 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'RATERRHE' (20.0%) via tesseract in 18.163s
+2026-06-27 20:14:44,537 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\23.png shape=(548, 750, 3)
+2026-06-27 20:14:45,693 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282059241M' (63.2%) via easyocr in 19.69s
+2026-06-27 20:14:45,719 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\24.png shape=(548, 750, 3)
+2026-06-27 20:14:45,728 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0281168241M' (61.1%) via easyocr in 19.58s
+2026-06-27 20:14:45,771 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\25.png shape=(548, 750, 3)
+2026-06-27 20:14:46,645 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:46,725 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:46,829 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:46,873 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:46,867 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0280268241M' (44.5%) via easyocr in 20.758s
+2026-06-27 20:14:46,992 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\26.png shape=(548, 750, 3)
+2026-06-27 20:14:47,505 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2135241M' [CODE_128]
+2026-06-27 20:14:47,512 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:47,573 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0268241M' (91.2%) via easyocr in 21.138s
+2026-06-27 20:14:47,647 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\27.png shape=(548, 750, 3)
+2026-06-27 20:14:48,037 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2134241M' [CODE_128]
+2026-06-27 20:14:48,056 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:48,880 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2101241M' (69.1%) via easyocr in 22.317s
+2026-06-27 20:14:48,959 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B0411241M' (84.0%) via tesseract in 22.757s
+2026-06-27 20:14:49,024 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\28.png shape=(548, 750, 3)
+2026-06-27 20:14:49,125 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\29.png shape=(548, 750, 3)
+2026-06-27 20:14:49,294 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via opencv: '010735494227' [UPC_A]
+2026-06-27 20:14:49,315 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:49,448 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2170241M' [CODE_128]
+2026-06-27 20:14:49,457 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:49,773 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0281216241M' (27.8%) via easyocr in 23.467s
+2026-06-27 20:14:49,934 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\30.png shape=(548, 750, 3)
+2026-06-27 20:14:49,950 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'OUTTAAEELTETTRTTRTEE' (34.5%) via tesseract in 23.847s
+2026-06-27 20:14:50,027 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\31.png shape=(548, 750, 3)
+2026-06-27 20:14:51,178 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:51,193 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:52,777 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'TEETERTELELLALLAI' (38.4%) via tesseract in 5.262s
+2026-06-27 20:14:52,835 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\32.png shape=(548, 750, 3)
+2026-06-27 20:14:54,066 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:54,112 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:55,301 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2198241P' [CODE_128]
+2026-06-27 20:14:55,350 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:55,383 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2279242M' [CODE_128]
+2026-06-27 20:14:55,412 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:56,897 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2250241M' [CODE_128]
+2026-06-27 20:14:56,909 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:57,411 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:14:57,534 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:14:58,750 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2253241M' [CODE_128]
+2026-06-27 20:14:58,884 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:00,431 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282121241M' (73.4%) via easyocr in 16.965s
+2026-06-27 20:15:00,523 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\33.png shape=(548, 750, 3)
+2026-06-27 20:15:01,078 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282114241M' (85.6%) via easyocr in 17.787s
+2026-06-27 20:15:01,133 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\34.png shape=(548, 750, 3)
+2026-06-27 20:15:02,263 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HTTETTTAAETST' (27.6%) via tesseract in 14.207s
+2026-06-27 20:15:02,287 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\35.png shape=(548, 750, 3)
+2026-06-27 20:15:03,119 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:03,141 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:03,794 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'TREEEEUETETRA' (27.5%) via tesseract in 8.435s
+2026-06-27 20:15:03,906 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\36.png shape=(548, 750, 3)
+2026-06-27 20:15:04,273 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2300241M' [CODE_128]
+2026-06-27 20:15:04,275 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:04,741 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282117241P' (71.3%) via easyocr in 21.28s
+2026-06-27 20:15:04,763 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\37.png shape=(548, 750, 3)
+2026-06-27 20:15:05,027 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'HOLELEEEAE' (17.7%) via tesseract in 8.11s
+2026-06-27 20:15:05,137 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\38.png shape=(548, 750, 3)
+2026-06-27 20:15:06,049 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0OR9ORIAIM' (3.1%) via easyocr in 40.112s
+2026-06-27 20:15:06,082 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\39.png shape=(548, 750, 3)
+2026-06-27 20:15:06,394 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2298241M' [CODE_128]
+2026-06-27 20:15:06,413 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:07,585 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:07,591 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2170241M' (92.7%) via easyocr in 18.129s
+2026-06-27 20:15:07,623 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:07,627 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\40.png shape=(548, 750, 3)
+2026-06-27 20:15:08,494 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2128241M' (93.6%) via easyocr in 21.758s
+2026-06-27 20:15:08,567 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\41.png shape=(548, 750, 3)
+2026-06-27 20:15:08,651 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2170241P' (90.9%) via easyocr in 17.458s
+2026-06-27 20:15:08,677 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\42.png shape=(548, 750, 3)
+2026-06-27 20:15:08,793 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2329242M' [CODE_128]
+2026-06-27 20:15:08,797 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:09,414 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282279241M' (79.3%) via easyocr in 15.294s
+2026-06-27 20:15:09,488 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\43.png shape=(548, 750, 3)
+2026-06-27 20:15:09,672 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:09,747 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:10,081 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2309241M' [CODE_128]
+2026-06-27 20:15:10,125 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:10,301 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2128241P' (80.5%) via easyocr in 23.424s
+2026-06-27 20:15:10,374 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\44.png shape=(548, 750, 3)
+2026-06-27 20:15:11,364 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2329241M' [CODE_128]
+2026-06-27 20:15:11,398 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:11,649 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2130241M' (66.8%) via easyocr in 22.3s
+2026-06-27 20:15:11,739 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\45.png shape=(548, 750, 3)
+2026-06-27 20:15:11,853 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2333242M' [CODE_128]
+2026-06-27 20:15:11,864 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:11,860 - BarcodeOCR.services.ocr_service - WARNING - extract_text:192 - OCR returned no results from any engine
+2026-06-27 20:15:11,890 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\46.png shape=(548, 750, 3)
+2026-06-27 20:15:12,242 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2363241M' [CODE_128]
+2026-06-27 20:15:12,272 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:13,625 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2364241M' [CODE_128]
+2026-06-27 20:15:13,648 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:14,106 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'EEELIELLLUEAAN' (35.8%) via tesseract in 5.301s
+2026-06-27 20:15:14,180 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:14,202 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\47.png shape=(548, 750, 3)
+2026-06-27 20:15:14,230 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:14,420 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:14,540 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:16,989 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:17,088 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:18,554 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 20:15:18,587 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:18,978 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2273241M' (68.2%) via easyocr in 21.435s
+2026-06-27 20:15:19,137 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\48.png shape=(548, 750, 3)
+2026-06-27 20:15:21,567 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2296241P' (80.3%) via easyocr in 18.424s
+2026-06-27 20:15:21,627 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\49.png shape=(548, 750, 3)
+2026-06-27 20:15:21,812 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282300241M' (72.4%) via easyocr in 17.537s
+2026-06-27 20:15:21,826 - BarcodeOCR.core.preprocessing - INFO - load_image:57 - Image loaded: C:\Users\ajink\OneDrive\Desktop\barcode_ocr_systemmm\input_images\50.png shape=(548, 750, 3)
+2026-06-27 20:15:21,991 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282253241M' (87.4%) via easyocr in 23.095s
+2026-06-27 20:15:22,850 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'RRTATAE' (16.0%) via tesseract in 11.445s
+2026-06-27 20:15:24,588 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2513241M' [CODE_128]
+2026-06-27 20:15:24,590 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:25,641 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2508241P' [CODE_128]
+2026-06-27 20:15:25,647 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:25,884 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B2501241P' [CODE_128]
+2026-06-27 20:15:25,887 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:273 - Text ROI cropped using barcode bbox
+2026-06-27 20:15:25,925 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'ASETATETEEUFELHI' (31.5%) via tesseract in 19.51s
+2026-06-27 20:15:27,037 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'LS02B2333241M' (73.5%) via tesseract in 17.288s
+2026-06-27 20:15:28,810 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282318241M' (81.8%) via easyocr in 21.186s
+2026-06-27 20:15:29,417 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282333242M' (82.8%) via easyocr in 17.549s
+2026-06-27 20:15:29,512 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'AENEEEE' (14.0%) via tesseract in 3.86s
+2026-06-27 20:15:29,514 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'EEELIBRETELELLAA' (30.4%) via tesseract in 3.626s
+2026-06-27 20:15:29,534 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2364241M' (68.5%) via easyocr in 15.884s
+2026-06-27 20:15:29,737 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2309241M' (68.6%) via easyocr in 19.591s
+2026-06-27 20:15:29,799 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> 'LT0A' (6.8%) via easyocr in 17.519s
+2026-06-27 20:15:29,838 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2494241M' (90.0%) via tesseract in 15.288s
+2026-06-27 20:15:29,894 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282365241M' (68.7%) via easyocr in 15.661s
+2026-06-27 20:15:30,030 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '0282437241M' (58.2%) via easyocr in 12.936s
+2026-06-27 20:15:30,106 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2501241M' (68.8%) via easyocr in 11.517s
+2026-06-27 20:15:30,142 - BarcodeOCR.services.ocr_service - INFO - extract_text:198 - OCR completed -> '02B2513241M' (83.0%) via easyocr in 5.549s
+2026-06-27 20:15:30,718 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> outputs\reports\report_20260627_201530.pdf
+2026-06-27 20:15:30,739 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> outputs\results.csv
+2026-06-27 20:15:30,787 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> outputs\results.xlsx
+2026-06-27 20:15:30,791 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> outputs\json\all_results.json

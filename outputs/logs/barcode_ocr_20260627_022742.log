@@ -1,0 +1,14 @@
+2026-06-27 02:27:42,282 - BarcodeOCR - INFO - _build_root_logger:58 - Logger initialised -> /home/claude/build/barcode_ocr_system/outputs/logs/barcode_ocr_20260627_022742.log
+2026-06-27 02:27:42,645 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing', 'pyzbar']
+2026-06-27 02:27:42,646 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing', 'pyzbar']
+2026-06-27 02:27:42,811 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 02:27:42,814 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing', 'pyzbar']
+2026-06-27 02:27:43,358 - BarcodeOCR.core.barcode_detection - INFO - detect_barcode:227 - Barcode decoded via zxing: '02B0411241M' [CODE_128]
+2026-06-27 02:27:43,360 - BarcodeOCR.core.barcode_detection - INFO - __init__:197 - Barcode engines available: ['opencv', 'zxing', 'pyzbar']
+2026-06-27 02:27:43,457 - BarcodeOCR.core.barcode_detection - WARNING - detect_barcode:223 - No barcode detected by any engine/variant
+2026-06-27 02:27:43,468 - BarcodeOCR.core.preprocessing - DEBUG - crop_text_below_barcode:277 - Text ROI: bottom-30% proportional fallback
+2026-06-27 02:27:43,468 - BarcodeOCR.core.preprocessing - ERROR - load_image:55 - cv2.imread returned None for: /tmp/does_not_exist_12345.png
+2026-06-27 02:27:43,478 - BarcodeOCR.services.report_service - INFO - save_to_csv:78 - CSV saved -> /tmp/pytest-of-root/pytest-1/test_save_to_csv0/results.csv
+2026-06-27 02:27:43,486 - BarcodeOCR.services.report_service - INFO - save_to_excel:121 - Excel saved -> /tmp/pytest-of-root/pytest-1/test_save_to_excel0/results.xlsx
+2026-06-27 02:27:43,488 - BarcodeOCR.services.report_service - INFO - save_all_json:132 - JSON saved -> /tmp/pytest-of-root/pytest-1/test_save_all_json0/json/all_results.json
+2026-06-27 02:27:43,572 - BarcodeOCR.services.report_service - INFO - save_to_pdf:178 - PDF report saved -> /tmp/pytest-of-root/pytest-1/test_save_to_pdf_returns_path0/reports/report_20260627_022743.pdf
