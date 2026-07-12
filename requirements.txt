@@ -1,17 +1,22 @@
-streamlit
-opencv-contrib-python-headless
-numpy
-pandas
-Pillow
-openpyxl
-reportlab
-plotly
+streamlit>=1.32.0
 
-pyzbar
-zxing-cpp
+opencv-contrib-python-headless>=4.9.0
 
-pytesseract
+Pillow>=10.2.0
+numpy>=1.26.0
+pandas>=2.2.0
+openpyxl>=3.1.2
+reportlab>=4.0.0
+plotly>=5.20.0
 
-easyocr
+pyzbar>=0.1.9
+zxing-cpp>=2.2.0
 
-pytest
+pytesseract>=0.3.10
+
+easyocr>=1.7.1
+torch>=2.0.0
+torchvision>=0.15.0
+
+paddleocr>=2.7.0
+paddlepaddle>=2.5.0
