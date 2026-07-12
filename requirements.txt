@@ -1,0 +1,27 @@
+# ── Core (required) ──────────────────────────────────────────────────────
+streamlit>=1.32.0
+opencv-contrib-python>=4.9.0
+Pillow>=10.2.0
+numpy>=1.26.0
+pandas>=2.2.0
+openpyxl>=3.1.2
+reportlab>=4.0.0          # PDF report generation
+plotly>=5.20.0            # optional, used by some dashboard charts
+
+# ── Barcode decoders (multi-engine; OpenCV above is always available) ───
+pyzbar>=0.1.9              # requires system lib: libzbar0 (apt-get install libzbar0)
+zxing-cpp>=2.2.0
+
+# ── OCR engines (multi-engine; install any/all — auto-detected) ─────────
+pytesseract>=0.3.10        # requires system binary: tesseract-ocr (apt-get install tesseract-ocr)
+easyocr>=1.7.1            # optional — heavy (PyTorch). Uncomment to enable.
+torch>=2.0.0              # required by easyocr if enabled
+torchvision>=0.15.0       # required by easyocr if enabled
+paddleocr>=2.7.0          # optional — heavy (PaddlePaddle). Uncomment to enable.
+paddlepaddle>=2.5.0       # required by paddleocr if enabled
+
+# ── Testing ───────────────────────────────────────────────────────────────
+pytest>=8.0.0
+
+# ── Packaging (optional) ──────────────────────────────────────────────────
+pyinstaller>=6.5.0
