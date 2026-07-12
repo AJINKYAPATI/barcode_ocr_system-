@@ -1,6 +1,7 @@
 # ── Core (required) ──────────────────────────────────────────────────────
 streamlit>=1.32.0
-opencv-contrib-python>=4.9.0
+#  opencv-contrib-python>=4.9.0
+opencv-python-headless
 Pillow>=10.2.0
 numpy>=1.26.0
 pandas>=2.2.0
